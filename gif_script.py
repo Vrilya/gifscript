@@ -23,7 +23,7 @@ class TransparentGif(BaseWidget):
     def __init__(self, always_on_top):
         super().__init__(always_on_top)
 
-        self.movie = QtGui.QMovie("/home/vrilya/python/giphy1.gif")
+        self.movie = QtGui.QMovie("/home/animelover/python/giphy1.gif")
         self.label = QtWidgets.QLabel(self)
         self.label.setMovie(self.movie)
 
